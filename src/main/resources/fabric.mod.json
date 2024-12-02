@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "narcocraft",
+	"version": "${version}",
+	"name": "NarcoCraft",
+	"description": "NarcoCraft is a mod that adds drugs in vanilla style to Minecraft.",
+	"authors": [
+		"NotJan",
+		"Mufasse"
+	],
+	"contact": {
+		"homepage": "https://notjan.de/",
+		"sources": "https://github.com/NotJanLive/NarcoCraft"
+	},
+	"license": "MIT",
+	"icon": "assets/narcocraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.notjan.NarcoCraft"
+		],
+		"fabric-datagen": [
+			"de.notjan.NarcoCraftDataGenerator"
+		],
+		"client": [
+			"de.notjan.NarcoCraftClient"
+		]
+	},
+	"mixins": [
+		"narcocraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
