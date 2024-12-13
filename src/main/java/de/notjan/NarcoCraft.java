@@ -1,5 +1,7 @@
 package de.notjan;
 
+import de.notjan.block.ModBlocks;
+import de.notjan.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,5 +13,7 @@ public class NarcoCraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
