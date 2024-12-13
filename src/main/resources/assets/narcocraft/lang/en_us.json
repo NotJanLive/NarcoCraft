@@ -11,5 +11,7 @@
   "item.narcocraft.fluid_cocaine": "Fluid Cocaine",
   "item.narcocraft.tuyo_music_disc": "Tuyo Music Disc",
 
-  "block.narcocraft.drug_block": "Drug Block"
+  "block.narcocraft.drug_block": "Drug Block",
+
+  "itemgroup.narcocraft.narcocraft_items" : "NarcoCraft"
 }

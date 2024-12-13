@@ -28,19 +28,5 @@ public class ModItems {
 
     public static void registerModItems(){
         NarcoCraft.LOGGER.info("Registering Mod Items for " + NarcoCraft.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(WEED_LEAF);
-            entries.add(CANNABIS_SEEDS);
-            entries.add(CHOPPED_LEAVES);
-            entries.add(COCA_LEAF);
-            entries.add(COCA_SEEDS);
-            entries.add(COCAINE_BRICK);
-            entries.add(COCAINE_LINE);
-            entries.add(COCAINE_PASTE);
-            entries.add(COCAINE_POWDER);
-            entries.add(FLUID_COCAINE);
-            entries.add(TUYO_MUSIC_DISC);
-        });
     }
 }

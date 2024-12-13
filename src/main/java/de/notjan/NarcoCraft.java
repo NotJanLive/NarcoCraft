@@ -1,6 +1,7 @@
 package de.notjan;
 
 import de.notjan.block.ModBlocks;
+import de.notjan.items.ModItemGroups;
 import de.notjan.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,6 @@ public class NarcoCraft implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }
