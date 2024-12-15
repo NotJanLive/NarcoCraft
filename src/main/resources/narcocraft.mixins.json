@@ -3,7 +3,9 @@
 	"package": "de.notjan.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"LogoDrawerMixin",
+		"MainMenuMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

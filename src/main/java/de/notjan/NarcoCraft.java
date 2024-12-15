@@ -3,6 +3,8 @@ package de.notjan;
 import de.notjan.block.ModBlocks;
 import de.notjan.items.ModItemGroups;
 import de.notjan.items.ModItems;
+import de.notjan.sound.ModSounds;
+import de.notjan.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -17,5 +19,7 @@ public class NarcoCraft implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+		ModSounds.registerSounds();
+		ModVillagers.registerVillagers();
 	}
 }

@@ -1,0 +1,18 @@
+{
+  "narcos": {
+    "sounds": [
+      {
+        "name": "narcocraft:narcos",
+        "stream": true
+      }
+    ]
+  },
+  "tuyo": {
+    "sounds": [
+      {
+        "name": "narcocraft:tuyo",
+        "stream": true
+      }
+    ]
+  }
+}

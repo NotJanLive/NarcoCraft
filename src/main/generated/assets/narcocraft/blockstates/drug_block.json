@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "narcocraft:block/drug_block"
+    }
+  }
+}

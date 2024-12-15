@@ -9,9 +9,12 @@
   "item.narcocraft.cocaine_paste": "Cocaine Paste",
   "item.narcocraft.cocaine_powder": "Cocaine Powder",
   "item.narcocraft.fluid_cocaine": "Fluid Cocaine",
-  "item.narcocraft.tuyo_music_disc": "Tuyo Music Disc",
+  "item.narcocraft.tuyo_music_disc": "§bMusic Disc",
+  "item.narcocraft.tuyo_music_disc.desc": "Narcos Theme - Tuyo",
 
   "block.narcocraft.drug_block": "Drug Block",
 
-  "itemgroup.narcocraft.narcocraft_items" : "NarcoCraft"
+  "itemgroup.narcocraft.narcocraft_items" : "NarcoCraft",
+
+  "entity.minecraft.villager.drug_addict": "Drug Addict"
 }

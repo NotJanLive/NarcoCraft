@@ -2,6 +2,7 @@ package de.notjan;
 
 import de.notjan.datagen.ModBlockTagProvider;
 import de.notjan.datagen.ModModelProvider;
+import de.notjan.datagen.ModPoiTagProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -11,6 +12,7 @@ public class NarcoCraftDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 		pack.addProvider(ModBlockTagProvider::new);
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModPoiTagProvider::new);
 
 	}
 }
